@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="backgroundimg">
+        <!-- <img src="./backgroundimg.jpg" alt=""> -->
+        <div class="container">
+            <div class="box">
+                <input id="input" class="input" type="text">
+                <div class="btns">
+                    <button class="btn" onclick="backspace()" >C</button>
+                    <button class="btn">()</button>
+                    <button class="btn" onclick="buttonclick('%')">%</button>
+                    <button class="btn" onclick="buttonclick('/')">/</button>
+                    <button class="btn" onclick="buttonclick('7')">7</button>
+                    <button class="btn" onclick="buttonclick('8')">8</button>
+                    <button class="btn" onclick="buttonclick('9')">9</button>
+                    <button class="btn" onclick="buttonclick('*')">*</button>
+
+                    <button class="btn"onclick="buttonclick('4')" >4</button>
+                    <button class="btn"onclick="buttonclick('5')" >5</button>
+                    <button class="btn" onclick="buttonclick('6')">6</button>
+                    <button class="btn" onclick="buttonclick('-')">-</button>
+
+                    <button class="btn" onclick="buttonclick('1')">1</button>
+                    <button class="btn" onclick="buttonclick('2')">2</button>
+                    <button class="btn"onclick="buttonclick('3')" >3</button>
+                    <button class="btn" onclick="buttonclick('+')">+</button>
+
+                    <button class="btn" >sqrt</button>
+                    <button class="btn" >sin</button>
+                    <button class="btn" >tan</button>
+                    <button class="btn"onclick="buttonclick('1')">0</button>
+
+                    <button class="btn" onclick="clearscreen()" >CE</button>
+                    <button class="btn" >.</button>
+                    <button class="btn" onclick="buttonclick('00')">00</button>
+                    <button class="btn" onclick="calculate()">=</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+        
+</body>
+</html>
